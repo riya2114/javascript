@@ -90,3 +90,29 @@
 //     return `Swap: ${a} ${b}`;
 //   }
 // console.log(swap(5,4)); //output is: Swap: 4 5
+
+//high order function
+// const my_name=(name,callback)=>{ //high order function callback
+//     let age=callback(11,7)
+//     return `my name is ${name} and age is ${age}`
+// }
+// const my_ag=(x,y)=>{
+//     return x+y
+// }
+// console.log(my_name("Riya",my_ag))//callback function my_ag
+
+
+//named function expression
+// function abc(){
+//     console.log("I am named function")
+// }
+// abc()
+
+//first class function
+// const xyz= function(name,someMessage){
+//     return someMessage(name)
+// }
+// const sayHello=function(name){
+//     return `Hello! ${name}`
+// }
+// console.log(xyz("I am first class function",sayHello))
